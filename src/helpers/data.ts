@@ -9,10 +9,7 @@ import OEGTALENT from "assets/project/oegtalent.jpg";
 import OEGVN from "assets/project/oegvn.jpg";
 
 export const APP_DATA = {
-  YOUTUBE_URL: "https://www.youtube.com/@hoidanit",
-  TIKTOK_URL: "https://www.tiktok.com/@hoidanit",
-  UDEMY_URL: "https://www.udemy.com/user/eric-7039/",
-  FACEBOOK_URL: "https://www.facebook.com/askITwithERIC/",
+  FACEBOOK_URL: "https://www.facebook.com/duc.binh.171/",
 };
 
 export const EXPERIENCES = [

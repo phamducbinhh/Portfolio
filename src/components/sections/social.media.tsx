@@ -4,10 +4,10 @@ import { FaTiktok } from "react-icons/fa";
 import { SiYoutubeshorts } from "react-icons/si";
 
 interface IProps {
-    youtube: string;
-    tiktok: string;
-    udemy: string;
-    facebook: string;
+    youtube?: string;
+    tiktok?: string;
+    udemy?: string;
+    facebook?: string;
 }
 const SocialMedia = (props: IProps) => {
     const { youtube, tiktok, udemy, facebook } = props;
