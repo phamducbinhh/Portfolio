@@ -59,21 +59,23 @@ const About = () => {
                 </Col>
                 <Col md={6} xs={12} className="mt-md-5 mt-3">
                     <div className="d-flex flex-column align-items-center gap-3">
-                        <div><h4 className="text-center brand-red">Education</h4></div>
+                        <div><h4 className="text-center brand-red">{t('education.title')}</h4></div>
                         <div >
                             <GlowCard identifier={`experience-5`}>
                                 <div className="p-3 relative">
                                     <div className="experience-container">
                                         <div className="duration-text">
-                                            <p>20xx-20xx</p>
+                                            <p>2018-2023</p>
                                         </div>
                                         <div className="details">
                                             <div className="icon">
                                                 <FaGraduationCap size={36} />
                                             </div>
                                             <div className="info">
-                                                <p className="title">Softwaren Engineer</p>
-                                                <p className="company">Hanoi University of Science and Technology (HUST)</p>
+                                                <p className="title">
+                                                    {t('education.major')}
+                                                </p>
+                                                <p className="company"> {t('education.university')}</p>
                                             </div>
                                         </div>
                                     </div>

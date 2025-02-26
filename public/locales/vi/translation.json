@@ -25,7 +25,7 @@
   "skill": {
     "title": "Kỹ năng"
   },
-  "about" : {
+  "about": {
     "title": "Biết Tôi Là",
     "prefix": "Ai",
     "greeting": "Xin chào mọi người, tôi là Phạm Đức Bình đến từ Hà Nội, Việt Nam.",
@@ -37,5 +37,10 @@
     "hobby_travelling": "Du lịch",
     "quote": "\"Cách duy nhất để học một ngôn ngữ lập trình mới là viết chương trình bằng chính ngôn ngữ đó ~.~\"",
     "quote_author": "--Dennis Ritchie"
+  },
+  "education": {
+    "title": "Học vấn",
+    "university": "Trường Đại học Điện Lực Hà Nội (EPU)",
+    "major": "Ngành Công nghệ thông tin"
   }
 }

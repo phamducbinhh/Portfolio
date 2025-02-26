@@ -37,6 +37,11 @@
         "hobby_travelling": "Travelling",
         "quote": "\"The only way to learn a new programming language is by writing programs in it ~.~\"",
         "quote_author": "--Dennis Ritchie"
+      },
+      "education" : {
+        "title": "Education",
+        "university": "Hanoi Electric Power University (EPU)",
+        "major": "Software Engineering"
       }
 
 }
