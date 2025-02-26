@@ -1,162 +1,187 @@
-import nestImg from 'assets/project/nestjs.png';
-import nextjsImg from 'assets/project/nextjs.jpeg';
-import reactNativeImg from 'assets/project/react-native.png';
-import reactUltimateImg from 'assets/project/react-ultimate.png';
-import springMvcImg from 'assets/project/spring-mvc.png';
-import springRestImg from 'assets/project/spring-rest.png';
+import OEGBUSINESS from "assets/project/oegbiz.jpg";
+import OEGEsports from "assets/project/oegesports.jpg";
+import OEGGAME from "assets/project/oeggame.jpg";
+import OEGMENU from "assets/project/oegmenu.jpg";
+import OEGPROFILE from "assets/project/oegprofile.jpg";
+import OEGSpace from "assets/project/oegspace.jpg";
+import OEGTALENT from "assets/project/oegtalent.jpg";
+import OEGVN from "assets/project/oegvn.jpg";
 
 export const APP_DATA = {
-    YOUTUBE_URL: "https://www.youtube.com/@hoidanit",
-    TIKTOK_URL: "https://www.tiktok.com/@hoidanit",
-    UDEMY_URL: "https://www.udemy.com/user/eric-7039/",
-    FACEBOOK_URL: "https://www.facebook.com/askITwithERIC/"
-}
+  YOUTUBE_URL: "https://www.youtube.com/@hoidanit",
+  TIKTOK_URL: "https://www.tiktok.com/@hoidanit",
+  UDEMY_URL: "https://www.udemy.com/user/eric-7039/",
+  FACEBOOK_URL: "https://www.facebook.com/askITwithERIC/",
+};
 
 export const EXPERIENCES = [
-    {
-        id: 1,
-        title: {
-            vi: "Lập Trình Viên",
-            en: "Fullstack Developer"
-        },
-        company: {
-            vi: "Công ty Cổ phần Tập đoàn Giải trí Đại Dương (OEG)",
-            en: "Ocean Entertainment Group (OEG)"
-        },
-        duration: {
-            vi: "Tháng 9/2022 - Hiện tại",
-            en: "Sep 2022 - Present"
-        }
+  {
+    id: 1,
+    title: {
+      vi: "Lập Trình Viên",
+      en: "Fullstack Developer",
     },
-    {
-        id: 2,
-        title: {
-            vi: "Thực tập sinh Fullstack Javascript",
-            en: "Intern Fullstack Javascript"
-        },
+    company: {
+      vi: "Công ty Cổ phần Tập đoàn Giải trí Đại Dương (OEG)",
+      en: "Ocean Entertainment Group (OEG)",
+    },
+    duration: {
+      vi: "Tháng 9/2022 - Hiện tại",
+      en: "Sep 2022 - Present",
+    },
+  },
+  {
+    id: 2,
+    title: {
+      vi: "Thực tập sinh Fullstack Javascript",
+      en: "Intern Fullstack Javascript",
+    },
 
-        company: {
-            vi: "Công ty TTC Solutions",
-            en: "TTC Solutions"
-        },
-        duration: {
-            vi: "Tháng 6/2022 - Tháng 9/2022",
-            en: "Jun 2022 - Sep 2022"
-        }
+    company: {
+      vi: "Công ty TTC Solutions",
+      en: "TTC Solutions",
     },
-    {
-        id: 3,
-        title: {
-            vi: "Thực tập sinh Backend",
-            en: "Intern Backend Developer"
-        },
+    duration: {
+      vi: "Tháng 6/2022 - Tháng 9/2022",
+      en: "Jun 2022 - Sep 2022",
+    },
+  },
+  {
+    id: 3,
+    title: {
+      vi: "Thực tập sinh Backend",
+      en: "Intern Backend Developer",
+    },
 
-        company: {
-            vi: "Công ty BKAV",
-            en: "BKAV"
-        },
-        duration: {
-            vi: "Tháng 1/2022 - Tháng 4/2022",
-            en: "Jan 2022 - Apr 2022"
-        }
+    company: {
+      vi: "Công ty BKAV",
+      en: "BKAV",
     },
-    {
-        id: 4,
-        title: {
-            vi: "Dự án tự làm",
-            en: "Self Employed"
-        },
-        company: {
-            vi: "Học kiến thức mới mỗi ngày",
-            en: "Code and build something in everyday."
-        },
-        duration: {
-            vi: "Tháng 1/2020 - Hiện tại",
-            en: "Jan 2020 - Present"
-        }
-    }
-]
+    duration: {
+      vi: "Tháng 1/2022 - Tháng 4/2022",
+      en: "Jan 2022 - Apr 2022",
+    },
+  },
+  {
+    id: 4,
+    title: {
+      vi: "Dự án tự làm",
+      en: "Self Employed",
+    },
+    company: {
+      vi: "Học kiến thức mới mỗi ngày",
+      en: "Code and build something in everyday.",
+    },
+    duration: {
+      vi: "Tháng 1/2020 - Hiện tại",
+      en: "Jan 2020 - Present",
+    },
+  },
+];
 
 export const PROJECTS = [
-    {
-        id: 1,
-        imgPath: reactNativeImg,
-        title: "React Native Basic",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        githubLink: "https://hoidanit.vn/khoa-hoc/react-native-ultimate-phat-trien-ung-dung-mobile-66e7ab4578aaf477418cb538.html",
-        demoLink: "https://hoidanit.vn/khoa-hoc/react-native-ultimate-phat-trien-ung-dung-mobile-66e7ab4578aaf477418cb538.html"
-    },
-    {
-        id: 2,
-        imgPath: springRestImg,
-        title: "Java Spring REST",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        githubLink: "https://hoidanit.vn/khoa-hoc/java-spring-rest-ultimate-for-beginners-6631cb577353ab6861b188f6.html",
-        demoLink: "https://hoidanit.vn/khoa-hoc/java-spring-rest-ultimate-for-beginners-6631cb577353ab6861b188f6.html"
-    },
-    {
-        id: 3,
-        imgPath: springMvcImg,
-        title: "Java Spring MVC",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        githubLink: "https://hoidanit.vn/khoa-hoc/java-spring-mvc-ultimate-for-beginners-65ce0b770c05f4450fbd86ac.html",
-        demoLink: "https://hoidanit.vn/khoa-hoc/java-spring-mvc-ultimate-for-beginners-65ce0b770c05f4450fbd86ac.html"
-    },
-    {
-        id: 4,
-        imgPath: nextjsImg,
-        title: "React ProMax with Next.js",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        githubLink: "https://hoidanit.vn/khoa-hoc/react-pro-max-voi-nextjs-lam-chu-toan-dien-reactjs-hien-dai-65198100e6bafa8caad417a6.html",
-        demoLink: "https://hoidanit.vn/khoa-hoc/react-pro-max-voi-nextjs-lam-chu-toan-dien-reactjs-hien-dai-65198100e6bafa8caad417a6.html"
-    },
-    {
-        id: 5,
-        imgPath: nestImg,
-        title: "Nest.js Basic",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        githubLink: "https://hoidanit.vn/khoa-hoc/nestjs-voi-typescript-mongodb-sieu-de-64686ec6fb456bbb90663dd6.html",
-        demoLink: "https://hoidanit.vn/khoa-hoc/nestjs-voi-typescript-mongodb-sieu-de-64686ec6fb456bbb90663dd6.html"
-    },
-    {
-        id: 6,
-        imgPath: reactUltimateImg,
-        title: "React Ultimate",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        githubLink: "https://hoidanit.vn/khoa-hoc/react-ultimate-react-co-ban-tu-z-toi-a-640b50b96cc592d780aab976.html",
-        demoLink: "https://hoidanit.vn/khoa-hoc/react-ultimate-react-co-ban-tu-z-toi-a-640b50b96cc592d780aab976.html"
-    }
-]
+  {
+    id: 1,
+    imgPath: OEGVN,
+    title: "OEG",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    githubLink: "#",
+    demoLink: "https://oeg.vn/",
+  },
+  {
+    id: 2,
+    imgPath: OEGSpace,
+    title: "OEG SPACE",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    githubLink: "#",
+    demoLink: "https://space.oeg.vn/",
+  },
+  {
+    id: 3,
+    imgPath: OEGEsports,
+    title: "OEG ESPORTS",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    githubLink: "#",
+    demoLink: "https://esports.oeg.vn/",
+  },
+  {
+    id: 4,
+    imgPath: OEGPROFILE,
+    title: "OEG PROFILE",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    githubLink: "#",
+    demoLink: "https://profile.oeg.vn/",
+  },
+  {
+    id: 5,
+    imgPath: OEGBUSINESS,
+    title: "OEG BUSINESS",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    githubLink: "#",
+    demoLink: "https://biz.oeg.vn/",
+  },
+  {
+    id: 6,
+    imgPath: OEGGAME,
+    title: "OEG GAME PORTAL",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    githubLink: "#",
+    demoLink: "https://game.oeg.vn/",
+  },
+  {
+    id: 7,
+    imgPath: OEGMENU,
+    title: "MENU GAME",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    githubLink: "#",
+    demoLink: "https://game.oeg.vn/",
+  },
+  {
+    id: 8,
+    imgPath: OEGTALENT,
+    title: "TALENT HOUSE",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    githubLink: "#",
+    demoLink: "https://talenthouse.vn/",
+  },
+];
 
 export const SKILLS_DATA = [
-    'HTML',
-    'CSS',
-    'Javascript',
-    'Typescript',
-    'React',
-    'Next JS',
-    'Vue',
-    'Nuxt js',
-    'Tailwind',
-    'MongoDB',
-    'MySQL',
-    'Git',
-    'Bootstrap',
-    'Docker',
-    'Graphql',
-    'Figma',
-    'Firebase',
-    'MaterialUI',
-    'Nginx',
-  ]
+  "HTML",
+  "CSS",
+  "Javascript",
+  "Typescript",
+  "React",
+  "Next JS",
+  "Vue",
+  "Nuxt js",
+  "Tailwind",
+  "MongoDB",
+  "MySQL",
+  "Git",
+  "Bootstrap",
+  "Docker",
+  "Graphql",
+  "Figma",
+  "Firebase",
+  "MaterialUI",
+  "Nginx",
+];
 
-  // Choose your skills from below. Make sure it's in the same format and spelled correctly.
-  // Couldn't find the required skills? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new
+// Choose your skills from below. Make sure it's in the same format and spelled correctly.
+// Couldn't find the required skills? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new
 
+// AVAILABLE SKILLS
 
-  // AVAILABLE SKILLS
-
-  /*
+/*
     HTML
     CSS
     JS
