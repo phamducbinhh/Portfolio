@@ -1,16 +1,16 @@
-import { Outlet } from "react-router-dom"
-import AppHeader from "./components/layout/app.header"
-import AppFooter from "./components/layout/app.footer"
+import { Outlet } from "react-router-dom";
+import { Fragment } from "react/jsx-runtime";
+import AppFooter from "./components/layout/app.footer";
+import AppHeader from "./components/layout/app.header";
 
 function Layout() {
-
   return (
-    <div>
+    <Fragment>
       <AppHeader />
       <Outlet />
       <AppFooter />
-    </div>
-  )
+    </Fragment>
+  );
 }
 
-export default Layout
+export default Layout;
