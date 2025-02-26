@@ -1,42 +1,42 @@
-import { Col, Row } from "react-bootstrap";
 import AnimationLottie from "@/components/share/animation-lottie";
 import codingJSON from 'assets/lottie/coding.json';
-import { DEVELOPMENT_LOTTIE } from "assets/lottie/string/development";
 import { CONTACT_LOTTIE } from "assets/lottie/string/contact";
-import GlowCard from "components/share/glow-card";
-import { FaGraduationCap } from "react-icons/fa6";
+import { DEVELOPMENT_LOTTIE } from "assets/lottie/string/development";
 import Divider from "components/sections/divider";
-import { APP_DATA } from "helpers/data";
 import SocialMedia from "components/sections/social.media";
+import GlowCard from "components/share/glow-card";
+import { APP_DATA } from "helpers/data";
+import { Col, Row } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
+import { FaGraduationCap } from "react-icons/fa6";
 
 const About = () => {
+    const {t} = useTranslation()
     return (
         <>
             <Row>
                 <Col md={6} xs={12}>
-                    <h3 className="text-center mb-md-5 mb-2">Know Who <span className="brand-red">I'M</span> </h3>
+                    <h3 className="text-center mb-md-5 mb-2">{t('about.title')} <span className="brand-red">{t('about.prefix')}</span> </h3>
                     <div>
                         <div>
-                            <p> Hi Everyone, I am HoiDanIT from Hanoi, VietNam.</p>
+                            <p>{t('about.greeting')}</p>
 
-                            <p> I am currently employed as a a freelance dev (start-up).</p>
+                            <p>{t('about.employment')}</p>
 
-                            <p> I have completed Bachelor's degree in Software Engineer at Hanoi University of Science and Technology (HUST).</p>
+                            <p>{t('about.education')}</p>
                         </div>
                     </div>
                     <div>
-                        <p>Apart from coding, some other activities that I love to do!
-
-                        </p>
+                        <p>{t('about.hobbies_title')}</p>
                         <ul>
-                            <li>Playing Games</li>
-                            <li>Writing Tech Blogs</li>
-                            <li>Travelling</li>
+                            <li>{t('about.hobby_playing_games')}</li>
+                            <li>{t('about.hobby_writing_blogs')}</li>
+                            <li>{t('about.hobby_travelling')}</li>
                         </ul>
                     </div>
                     <div>
-                        <p className="text-center brand-red">"Pursuing Your Dreams Is How You Become Homeless ~.~"</p>
-                        <p className="text-center brand-red">--Jimmy O Yang</p>
+                        <p className="text-center brand-red">{t('about.quote')}</p>
+                        <p className="text-center brand-red">{t('about.quote_author')}</p>
                     </div>
                 </Col >
                 <Col md={6} xs={12} className="d-flex align-items-center justify-content-center">

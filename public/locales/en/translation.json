@@ -24,5 +24,19 @@
     },
     "skill": {
         "title": "Skills"
-    }
+    },
+    "about" : {
+        "title": "Know Who",
+        "prefix": "I'M",
+        "greeting": "Hi Everyone, I am PhamDucBinh from Hanoi, VietNam.",
+        "employment": "I am currently employed as a freelance dev (start-up).",
+        "education": "I have completed a Bachelor's degree in Software Engineering at Hanoi Electric Power University (EPU).",
+        "hobbies_title": "Apart from coding, some other activities that I love to do!",
+        "hobby_playing_games": "Playing Games",
+        "hobby_writing_blogs": "Writing Tech Blogs",
+        "hobby_travelling": "Travelling",
+        "quote": "\"The only way to learn a new programming language is by writing programs in it ~.~\"",
+        "quote_author": "--Dennis Ritchie"
+      }
+
 }
