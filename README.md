@@ -1,21 +1,8 @@
 # React TypeScript Portfolio (TypeScript) FINAL PROJECT
-Đây là source code final cho series React TypeScript Portfolio (Vite) của tác giả Phạm Đức Bình (Eric)
+Đây là source code final cho series React TypeScript Portfolio (Vite) của tác giả Phạm Đức Bình
 
 ### Môi trường chạy dự án: Node.js v20.14.0
 https://nodejs.org/download/release/v20.14.0/
-
-## Về tác giả
-Mọi thông tin về Tác giả Phạm Đức Bình, các bạn có thể tìm kiếm tại đây:
-
-Website chính thức: https://hoidanit.vn/
-
-Youtube “Phạm Đức Bình” : https://www.youtube.com/@hoidanit
-
-Tiktok “Phạm Đức Bình” :  https://www.tiktok.com/@hoidanit
-
-Fanpage “Phạm Đức Bình” : https://www.facebook.com/askITwithERIC/
-
-Udemy Phạm Đức Bình: https://www.udemy.com/user/eric-7039/
 
 ===
 
