@@ -20,32 +20,48 @@ export const EXPERIENCES = [
             en: "Fullstack Developer"
         },
         company: {
-            vi: "Công ty ABCXYZ Ltd.",
-            en: "ABCXYZ Ltd."
+            vi: "Công ty Cổ phần Tập đoàn Giải trí Đại Dương (OEG)",
+            en: "Ocean Entertainment Group (OEG)"
         },
         duration: {
-            vi: "Jan 2024 - Hiện tại",
-            en: "Jan 2024 - Present"
+            vi: "Tháng 9/2022 - Hiện tại",
+            en: "Sep 2022 - Present"
         }
     },
     {
         id: 2,
         title: {
-            vi: "Lập Trình Viên",
-            en: "Fullstack Developer"
+            vi: "Thực tập sinh Fullstack Javascript",
+            en: "Intern Fullstack Javascript"
         },
 
         company: {
-            vi: "Công ty F (freelancer)",
-            en: "F (freelancer)"
+            vi: "Công ty TTC Solutions",
+            en: "TTC Solutions"
         },
         duration: {
-            vi: "Tháng 6/2022 - Tháng 1/2024",
-            en: "Jun 2022 - Jan 2024"
+            vi: "Tháng 6/2022 - Tháng 9/2022",
+            en: "Jun 2022 - Sep 2022"
         }
     },
     {
         id: 3,
+        title: {
+            vi: "Thực tập sinh Backend",
+            en: "Intern Backend Developer"
+        },
+
+        company: {
+            vi: "Công ty BKAV",
+            en: "BKAV"
+        },
+        duration: {
+            vi: "Tháng 1/2022 - Tháng 4/2022",
+            en: "Jan 2022 - Apr 2022"
+        }
+    },
+    {
+        id: 4,
         title: {
             vi: "Dự án tự làm",
             en: "Self Employed"
@@ -119,32 +135,31 @@ export const SKILLS_DATA = [
     'Typescript',
     'React',
     'Next JS',
+    'Vue',
+    'Nuxt js',
     'Tailwind',
     'MongoDB',
     'MySQL',
-    'PostgreSQL',
     'Git',
-    'AWS',
     'Bootstrap',
     'Docker',
-    'Go',
+    'Graphql',
     'Figma',
     'Firebase',
     'MaterialUI',
     'Nginx',
-    'Strapi'
   ]
-  
+
   // Choose your skills from below. Make sure it's in the same format and spelled correctly.
   // Couldn't find the required skills? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new
-  
-  
+
+
   // AVAILABLE SKILLS
-  
-  /* 
+
+  /*
     HTML
     CSS
-    JS 
+    JS
     React
     Next JS
     Nuxt JS
