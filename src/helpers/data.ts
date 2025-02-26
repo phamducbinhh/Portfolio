@@ -86,7 +86,7 @@ export const PROJECTS = [
     imgPath: OEGVN,
     title: "OEG",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Trang web OEG.VN là trang tập hợp tin tức của OEG và OEG STADIUM bao gồm cả mục clips giải trí do OEG đăng tải. Dự án này sử dụng công ngệ NuxtJS, ExpressJS, MySQL",
     githubLink: "#",
     demoLink: "https://oeg.vn/",
   },
@@ -95,7 +95,7 @@ export const PROJECTS = [
     imgPath: OEGSpace,
     title: "OEG SPACE",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Trang web OEG SPACE là một nguồn thông tin đáng tin cậy và hữu ích cho cộng đồng game thủ và những người quan tâm đến lĩnh vực giải trí số tại Việt Nam. Dự án này sử dụng công ngệ NuxtJS, ExpressJS, MySQL",
     githubLink: "#",
     demoLink: "https://space.oeg.vn/",
   },
@@ -104,7 +104,7 @@ export const PROJECTS = [
     imgPath: OEGEsports,
     title: "OEG ESPORTS",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Trang web OEG ESPORTS là một trang web cho phép game thủ theo dõi và đăng ký các giải đấu thuộc hệ thông của OEG do OEG tổ chức. Dự án này sử dụng công ngệ NuxtJS, ExpressJS, MySQL",
     githubLink: "#",
     demoLink: "https://esports.oeg.vn/",
   },
@@ -113,7 +113,7 @@ export const PROJECTS = [
     imgPath: OEGPROFILE,
     title: "OEG PROFILE",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Trang web profile.oeg.vn là nền tảng quản lý tài khoản cho toàn bộ tài khoản bên hệ thống website của OEG, có đầy đủ các tính năng như cập nhật thông tin tài khoản ,cập nhật đội đăng ký giải, kiểm tra thông tin đơn hàng và nhiều tính năng khác. Dự án này sử dụng công ngệ ReactJS, ExpressJS, MySQL",
     githubLink: "#",
     demoLink: "https://profile.oeg.vn/",
   },
@@ -122,7 +122,7 @@ export const PROJECTS = [
     imgPath: OEGBUSINESS,
     title: "OEG BUSINESS",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Trang web biz.oeg.vn giới thiệu về Công ty Cổ phần Tập đoàn Giải trí Đại Dương (OEG). Dự án này sử dụng công nghệ ReactJS, Gsaps, ThreeJS",
     githubLink: "#",
     demoLink: "https://biz.oeg.vn/",
   },
@@ -131,7 +131,7 @@ export const PROJECTS = [
     imgPath: OEGGAME,
     title: "OEG GAME PORTAL",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Trang web game.oeg.vn là nền tảng theo dõi về các dự án game của OEG hợp tác và phát hành game, có tích hợp các cổng thanh toán bên thứ 3 cho phép người chơi thanh toán. Dự án này sử dụng công ngệ NextJS, ExpressJS, MySQL.",
     githubLink: "#",
     demoLink: "https://game.oeg.vn/",
   },
@@ -140,7 +140,7 @@ export const PROJECTS = [
     imgPath: OEGMENU,
     title: "OEG MENU GAME",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "menu-game-fnet.oeg.vn là một phần của hệ sinh thái OEG, tập trung vào việc cung cấp giải pháp quản lý phòng game thông qua phần mềm FNet. FNet là phần mềm tính tiền và quản lý phòng game hiện đại, hỗ trợ các chủ phòng máy quản lý hiệu quả hoạt động kinh doanh của mình. Dự án này sử dụng công ngệ ReactJS, ExpressJS, MySQL",
     githubLink: "#",
     demoLink: "https://game.oeg.vn/",
   },
@@ -149,7 +149,7 @@ export const PROJECTS = [
     imgPath: OEGTALENT,
     title: "OEG TALENT HOUSE",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Trang web talenthouse.vn là nền tảng kết nối các nghệ sĩ, nhà sáng tạo và thương hiệu, tạo cơ hội hợp tác và phát triển trong lĩnh vực nghệ thuật và truyền thông. Dự án này sử dụng công nghệ NextJS, ExpressJS, MySQL",
     githubLink: "#",
     demoLink: "https://talenthouse.vn/",
   },
@@ -158,7 +158,7 @@ export const PROJECTS = [
     imgPath: OEGSTADIUM,
     title: "OEG STADIUM",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "Trang web stadium.oeg.vn là cổng thông tin chính thức của OEG Stadium, một tổ hợp giải trí thể thao điện tử hàng đầu tại Việt Nam, có các tính năng chính như tin tức về OEG Stadium, mua thẻ nạp giờ chơi, mua thẻ game, đặt chỗ phòng máy. Dự án này sử dụng công nghệ NuxtJS, ExpressJS, MySQL",
     githubLink: "#",
     demoLink: "https://stadium.oeg.vn/",
   },
