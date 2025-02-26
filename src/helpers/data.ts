@@ -4,6 +4,7 @@ import OEGGAME from "assets/project/oeggame.jpg";
 import OEGMENU from "assets/project/oegmenu.jpg";
 import OEGPROFILE from "assets/project/oegprofile.jpg";
 import OEGSpace from "assets/project/oegspace.jpg";
+import OEGSTADIUM from "assets/project/oegstadium.jpg";
 import OEGTALENT from "assets/project/oegtalent.jpg";
 import OEGVN from "assets/project/oegvn.jpg";
 
@@ -137,7 +138,7 @@ export const PROJECTS = [
   {
     id: 7,
     imgPath: OEGMENU,
-    title: "MENU GAME",
+    title: "OEG MENU GAME",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     githubLink: "#",
@@ -146,11 +147,20 @@ export const PROJECTS = [
   {
     id: 8,
     imgPath: OEGTALENT,
-    title: "TALENT HOUSE",
+    title: "OEG TALENT HOUSE",
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     githubLink: "#",
     demoLink: "https://talenthouse.vn/",
+  },
+  {
+    id: 9,
+    imgPath: OEGSTADIUM,
+    title: "OEG STADIUM",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    githubLink: "#",
+    demoLink: "https://stadium.oeg.vn/",
   },
 ];
 
