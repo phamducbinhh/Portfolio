@@ -1,3 +1,5 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import Lottie, { LottieRefCurrentProps } from "lottie-react";
 import { useEffect, useMemo, useRef } from "react";
 
